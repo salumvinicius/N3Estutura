@@ -33,7 +33,7 @@ class Vertice():
 
     def __str__(self):
         return (" Vertice  : %s \n Estimativa: %i \n Tempo(%i\%i): " % (
-            self.id, self.estimativa, self.input, self.output))  # imprimir o predecesso
+            self.id, self.estimativa, self.input, self.output))  
 
     def __lt__(self, v):
         return self.estimativa < v.estimativa
